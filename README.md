@@ -3,7 +3,7 @@ A set of scripts used to run automated benchmarks on AWS.
 
 This repository contains the driver scripts developed to benchmark NoSQL type databases in a more automated way on AWS.  The repo primarily contains the scripts that run on the control node, sometimes referred to as the head node.
 
-The repository also contains helper scripts for the worker node, which contains the software to run either the YCSB client or a database instance.  These aren't used directly on the control node, nd instead are expected to be placed into the worker node's AMI.
+The repository also contains helper scripts for the worker node, which contains the software to run either the YCSB client or a database instance.  These aren't used directly on the control node, and instead are expected to be placed into the worker node's AMI.
 
 For an idea about how all this fits together, take a look at the "Big Picture" section below.
 
